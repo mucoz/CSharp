@@ -1,7 +1,10 @@
 using System;               //For console
 using System.Net;
 using System.Net.Sockets;   //For TCPClient, NetworkStream, SocketException
-
+/// <summary>
+/// Before using the main function, 1 argument must be provided which is port number : e.g. 3000
+/// If not specified, port number "7" will be used
+/// </summary>
 namespace TCPEchoServer
 {
 
