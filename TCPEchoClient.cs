@@ -2,7 +2,11 @@ using System;               //For console
 using System.Text;          //For encoding
 using System.IO;            //For IOException
 using System.Net.Sockets;   //For TCPClient, NetworkStream, SocketException
-
+/// <summary>
+/// Before Start, 3 arguments should be passed to the main function 
+///<Ip Address>, <Message>, <Port>
+/// "127.0.0.1", "Message", "7"
+/// </summary>
 namespace TCPEchoClient
 {
     class TcpEchoClient
