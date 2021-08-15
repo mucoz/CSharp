@@ -88,7 +88,7 @@ protected override void WndProc(ref Message m)
     if (m.Msg == 0x0312)
     {
         int id = m.WParam.ToInt32();
-
+        //Cast keys into integer and sum up. The result will be used for id 
         if (id == Globals.CreateGridID()) Grid.Grid.CreateGrid(this);
 
         else if (id == Globals.DeleteGridID()) Grid.Grid.DeleteGrid(this);
